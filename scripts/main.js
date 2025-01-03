@@ -1,7 +1,7 @@
 // Load assets
 Loader.addScenes([
 
-	"scenes/PROMO.md",
+	//"scenes/PROMO.md",
 	"scenes/intro.md",
 	"scenes/act1.md",
 	"scenes/intermission.md",
