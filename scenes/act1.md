@@ -7,6 +7,7 @@ SceneSetup.act1();
 (...300)
 
 n: А ЦЕ - ЇЇ ТРИВОЖНІСТЬ
+
 n: _*ТИ*_ Є ТРИВОЖНІСТЮ
 
 {{if window.localStorage.continueChapter=="replay"}}
@@ -189,6 +190,7 @@ h: О ні, мій вовк повернувся. Чууууууудово.
 `hong({eyes:"0_neutral"})`
 
 n: ТВОЄ ЗАВДАННЯ - ЗАХИСТИТИ ЛЮДИНУ ВІД *НЕБЕЗПЕКИ*
+
 `bb({eyes:"look", mouth:"small_lock"})`
 
 n: НАСПРАДІ, ЦЯ КАНАПКА - ЦЕ ПРЯМА *НЕБЕЗПЕКА* ЗАРАЗ
@@ -213,7 +215,7 @@ n4: (ДОЗВОЛЬ _*ТВОЇЙ*_ ТРИВОЖНОСТІ ЗІГРАТИ! ОБЕ
 
 [Ми їмо самі під час обіду! Знову!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[М ине продуктивні, поки їмо!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Ми не продуктивні, поки їмо!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
 [Цей білий хліб шкідливий для нас!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
@@ -244,7 +246,7 @@ b: Тож, якщо ми не підемо тусуватися з кимось 
 
 `bb({body:"panic"})`
 
-b: ПОМРЕМОООООООООООООООООООООООООООООООО
+b: ПОМРЕМООООООООООООООООООООООО
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -351,6 +353,7 @@ b: Бачиш, людино? Я твій вірний вовк-охоронец�
 `bb({body:"pride_talk"});`
 
 b: Довіряй своїм чуттям! Вони ніколи не збрешуть!
+
 `bb({body:"pride"});`
 
 n: ДОВЕДИ РІВЕНЬ ЕНЕРГІЇ ЛЮДИНИ ДО НУЛЯ
@@ -1335,15 +1338,15 @@ h: я такі замахані від цієї гри.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}
-{{if _.parasite}}"we're a society-parasite"... {{/if}}
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}
-{{if _.badnews}}"the world is burning"... {{/if}}
-{{if _.hookuphole}}"we'll die alone"... {{/if}}
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}
-{{if _.pokemon}}a ^crappy^ parody song... {{/if}}
+{{if _.fifteencigs}}"самотність уб'є нас"... {{/if}}
+{{if _.parasite}}"ми суспільний паразит"... {{/if}}
+{{if _.whitebread}}"не їж цього, воно нас уб'є"... {{/if}}
+{{if _.subtweet}}"вони говорять за нашою спиною"... {{/if}}
+{{if _.badnews}}"світ божеволіє"... {{/if}}
+{{if _.hookuphole}}"ми вмремо самотніми"... {{/if}}
+{{if _.serialkiller}}"це серійний убивця"... {{/if}}
+{{if _.catmilk}}"котам не можна молока"... {{/if}}
+{{if _.pokemon}} ^хуйова^ пародійна пісенька... {{/if}}
 
 h: я просто хочу жити своє життя.
 
@@ -1382,7 +1385,7 @@ h: Тут... більше фоток з вечірки.
 
 `hong({mouth:"sad"});`
 
-h: Всі такі щасоиві. Не турбуються. Не тривожаться.
+h: Всі такі щасливі. Не турбуються. Не тривожаться.
 
 `hong({mouth:"anger"});`
 
@@ -1396,7 +1399,7 @@ b: До речі, про вечірки. Ось моє фінальне ріше
 
 [Ми мусимо піти.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Ми не йдемо туди.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[Ми мусимо відмовитись.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1437,7 +1440,7 @@ b: що?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: Я збираюсь ПОГОДИТИСЬ на вечірку,
+h: Я збираюсь ПОГОДИТИСЬ на вечірку
 
 {{if _.act1g=="go"}}
 h: НЕ тому що ти так хочеш, а бо *Я* так хочу.
@@ -1603,7 +1606,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Покарай свій телефон! Зниш його! Розбий!
+b: Покарай свій телефон! Знищ його! Розбий!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
