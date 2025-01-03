@@ -94,15 +94,15 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 n3: Вітаю! Це не так "гра," як інтерактивна історія. Приємного читання, довбню!
 
-n3: So before we start, how would *you* like to read?
+n3: Тож, перш ніж почнемо, як *тобі* було б зручно читати?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Great! Note: you can always change options with the ⚙ icon below. Also, game auto-saves at each chapter!
+n3: Чудово! Пам'ятай: ти завжди можеш змінити налаштування тиснучи ⚙ знизу. А ще гра сама зберігається після кожної глави!
 
-n3: Now, let's begin our story...
+n3: А зараз почнімо нашу історію...
 
 `clearText()`
 
@@ -110,7 +110,7 @@ n3: Now, let's begin our story...
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ЦЕ ЛЮДИНА
 
 (...600)
 
