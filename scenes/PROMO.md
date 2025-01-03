@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Тож, перш ніж почати, як *тобі* буде зручно читати?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Тепер, почнімо нашу історію...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ЦЕ ЛЮДИНА
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: А ЦЕ ЇЇ ТРИВОЖНІСТЬ
 
-n: _YOU_ ARE THE ANXIETY
+n: _*ТИ*_ Є ТРИВОЖНІСТЮ
 
 (#act1_normal)
 
@@ -66,45 +66,45 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Ніт. Ні, нє-а, я не слухаю. Гляну, що там в телефоні.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: ТВОЯ РОБОТА - ЗАХИСТИТИ ЛЮДИНУ ВІД *НЕБЕЗПЕКИ*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: Ах! Ти провтикуєш своє життя у Твіттері! Знову!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Дійсно, чи не краще мені було б частіше сидіти і слухати власні думки.
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: ШВИДКО, ПОПЕРЕДЬ ЇХ ПРО "НЕБЕЗПЕКУ"*
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[О ні, глянь на ці жахливі новини!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[О ні, а що як цей твіт насправді *про нас?*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Гей, гіфка з котиком, що п'є молоко!](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: Хех, миленько. Я--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: КОТАМ НЕ МОЖНА МОЛОКА, І МИ ЖАХЛИВІ, ЩО НАСОЛОДЖУЄМОСЬ ЗНУЩАННЯМ НАД ТВАРИНКОЮ
 
 (...200)
 
