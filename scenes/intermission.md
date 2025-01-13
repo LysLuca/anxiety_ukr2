@@ -18,11 +18,11 @@ publish("show_stats");
 
 n2: СТРАХИ У ЦЬОМУ РАУНДІ:
 
-i: #harm# *BEING HARMED:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *СТРАХ ПОСТРАЖДАТИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *САМОТНОСТІ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *СТРАХ ПОКИНУТОСТІ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *БУТИ ПОГАНИМИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *СТРАХ БУТИ ПОГАНОЮ ЛЮДИНОЮ:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (game auto-saved! it's ok to quit & continue later)
+n5: (гра авто-збережена! це нормально - вийти і продовжити пізніше)
 
 ```
 Game.clearAll();
