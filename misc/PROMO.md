@@ -4,7 +4,7 @@
 
 # intro-play-button
 
-[<div class="mini-icon" pic="play1"></div> PLAY! <div class="mini-icon" pic="play2"></div>](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[<div class="mini-icon" pic="play1"></div> ГРАТИ! <div class="mini-icon" pic="play2"></div>](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -12,7 +12,7 @@
 
 `clearText()`
 
-n3: derp
+n3: блін
 
 `publish("show_options_bottom")`
 
@@ -24,7 +24,7 @@ n3: derp
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ЦЕ ЛЮДИНА
 
 (...600)
 
