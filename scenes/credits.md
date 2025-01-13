@@ -3,8 +3,8 @@
 ```
 Game.FORCE_CANT_SKIP = true;
 music('credits', {NO_LOOP:true, volume:0.4});
-window.localStorage.setItem("continueChapter", "replay"); /* to Continue */
-window.localStorage.setItem("credits", "YUP!"); /* for chapter select */
+window.localStorage.setItem("continueChapter", "replay"); /* щоб продовжити */
+window.localStorage.setItem("credits", "YUP!"); /* щоб обрати главу */
 ```
 
 (...1901)
