@@ -1534,6 +1534,7 @@ Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
 b: ААААА НАС УСІ НЕНАВИДЯТЬ АААААААААААААААА
+
 ```
 hong({body:"3_defeated1"});
 attack("100p", "alone");
