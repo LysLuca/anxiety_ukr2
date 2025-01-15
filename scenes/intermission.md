@@ -22,7 +22,7 @@ i: #harm# *СТРАХ ПОСТРАЖДАТИ:* {{_.INTERMISSION_STAGE==1 ? _.att
 
 i: #alone# *СТРАХ ПОКИНУТОСТІ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *СТРАХ БУТИ ПОГАНОЮ ЛЮДИНОЮ:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *СТРАХ БУТИ ПОГАНИМИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
