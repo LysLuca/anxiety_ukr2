@@ -20,7 +20,7 @@ n2: СТРАХИ У ЦЬОМУ РАУНДІ:
 
 i: #harm# *СТРАХ БУТИ СКРИВДЖЕНИМИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *СТРАХ САМОТНОСТІ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *СТРАХ БУТИ ПОКИНУТИМИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
 i: #bad# *СТРАХ БУТИ ПОГАНИМИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
