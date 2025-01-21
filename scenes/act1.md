@@ -959,6 +959,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
 h: Заткнись, заткнись, я погоджусь. Господи!
+
 (#act1f)
 
 # act1e_ignore_subtweet
