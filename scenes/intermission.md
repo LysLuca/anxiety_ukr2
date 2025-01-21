@@ -18,7 +18,7 @@ publish("show_stats");
 
 n2: СТРАХИ У ЦЬОМУ РАУНДІ:
 
-i: #harm# *СТРАХ ПОСТРАЖДАТИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *СТРАХ БУТИ СКРИВДЖЕНИМИ:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
 i: #alone# *СТРАХ САМОТНОСТІ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
